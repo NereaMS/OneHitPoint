@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="HealthBarBackground" style="flex-grow: 1; width: 131px; height: 37px; position: absolute; background-image: url(&quot;project://database/Assets/Health%20and%20Points%20Bars/Health%20and%20Points%20Bars/Sprites/Heart%20Bar/Heart%20Stage%205.png?fileID=2800000&amp;guid=0fd606942429135459e932d1b4739881&amp;type=3#Heart Stage 5&quot;); -unity-background-scale-mode: scale-to-fit; align-items: auto; align-self: flex-start; background-position-x: left 0; background-repeat: space no-repeat; background-color: rgba(127, 48, 64, 0);">
+        <ui:Label text="Label" name="HealthLabel" style="position: absolute; width: 100%; height: 100%; align-items: center; align-self: center; -unity-text-align: middle-center; font-size: 28px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-bottom: 0; margin-right: 0; margin-top: 0; margin-left: 502px;" />
+    </ui:VisualElement>
+</ui:UXML>
