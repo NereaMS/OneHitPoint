@@ -45,9 +45,10 @@ GameObject:
   - component: {fileID: 2504955693504276443}
   - component: {fileID: 5281791556258719644}
   - component: {fileID: 689260129788626041}
+  - component: {fileID: 3742458891696423248}
   m_Layer: 0
   m_Name: MainCharacter
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -189,7 +190,7 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
@@ -230,3 +231,21 @@ CapsuleCollider2D:
   m_Offset: {x: -0.20574903, y: 1.392295}
   m_Size: {x: 1.7261734, y: 2.7843082}
   m_Direction: 0
+--- !u!114 &3742458891696423248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838838834529220502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f66531b5464e47f418332b9b4d9d6d16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiDoc: {fileID: 0}
+  fullHeart: {fileID: 0}
+  halfHeart: {fileID: 0}
+  emptyHeart: {fileID: 0}
+  currentHealth: 12
+  maxHealth: 12

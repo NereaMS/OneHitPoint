@@ -6,34 +6,56 @@ using UnityEngine.UIElements;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public PlayerController player;
+    
     public UIDocument uiDoc;
-    private Label m_HealthLabel;
+    public Sprite fullHeart;
+    public Sprite halfHeart;
+    public Sprite emptyHeart;
+
+    public int currentHealth = 1;
+    public int maxHealth = 12;
+    
+    private VisualElement _healthContainer;
+    private Label _mHealthLabel;
     
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    private void Start()
+    private void OnEnable()
     {
+        var root = uiDoc.rootVisualElement;
         
-        PlayerController.OnHealthChange += HealthChanged;
-        m_HealthLabel = uiDoc.rootVisualElement.Q<Label>("Health");
-        HealthChanged();
+       
+        _healthContainer = uiDoc.rootVisualElement.Q<VisualElement>("HealthContainer");
+        _mHealthLabel = uiDoc.rootVisualElement.Q<Label>("Health");
+
+       // DrawHearts();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void TakeDamage(int amount)
     {
-        
+        currentHealth -= amount;
+        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+        //DrawHearts();
+        if (currentHealth <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 
-    void HealthChanged()
+    /*void DrawHearts()
     {
-        m_HealthLabel.text = $"{PlayerController.CurrentHealth}/{PlayerController.MaxHealth}";
+        int totalHearts =maxHealth;
+        int  currentHearts = currentHealth;
+        
+        for(int i=0; i<totalHearts; i++)
+            
+        
+        
         
     }
 
     void OnHealthChanged(int health)
     {
         
-    }
+    }*/
 }

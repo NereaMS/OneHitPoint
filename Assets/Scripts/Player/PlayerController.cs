@@ -76,9 +76,7 @@ public class PlayerController : MonoBehaviour
     {
       
         RaycastHit2D hit = Physics2D.Raycast(groundCheck.position, Vector2.down, 0.3f, groundMask);
-        Debug.Log(hit.collider ? $"✅ Raycast hit: {hit.collider.name}" : "❌ No hit");
-
-
+        
         isGrounded = hit.collider is not null;
 
         //isGrounded = Physics2D.Raycast(groundCheck.position, Vector2.down, groundDistance, groundMask);
@@ -94,7 +92,7 @@ public class PlayerController : MonoBehaviour
             verticalVelocity = 0f;
         }
         
-        rb.linearVelocity = new Vector2(move.x * moveSpeed, verticalVelocity);
+        rb.linearVelocity = new Vector2(move.x * moveSpeed, rb.linearVelocity.y);
         
         
     }
