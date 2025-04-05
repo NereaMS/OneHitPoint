@@ -9,53 +9,61 @@ public class PlayerHealth : MonoBehaviour
     
     public UIDocument uiDoc;
     public Sprite fullHeart;
-    public Sprite halfHeart;
+    
     public Sprite emptyHeart;
 
-    public int currentHealth = 1;
-    public int maxHealth = 12;
+    public int currentHealth;
+    public int maxHealth = 3;
     
-    private VisualElement _healthContainer;
-    private Label _mHealthLabel;
+    private VisualElement[] _hearts;
     
     
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    
+    
     private void OnEnable()
     {
         var root = uiDoc.rootVisualElement;
         
        
-        _healthContainer = uiDoc.rootVisualElement.Q<VisualElement>("HealthContainer");
-        _mHealthLabel = uiDoc.rootVisualElement.Q<Label>("Health");
-
-       // DrawHearts();
+        _hearts = new VisualElement[maxHealth];
+        for (int i = 0; i < maxHealth; i++)
+        {
+           _hearts[i] = root.Q<VisualElement>($"Heart{i+1}");
+           if(_hearts[i] == null)
+               Debug.Log("No heart");
+        }
+        DrawHearts();
     }
 
     public void TakeDamage(int amount)
     {
         currentHealth -= amount;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
-        //DrawHearts();
+        DrawHearts();
         if (currentHealth <= 0)
         {
             Destroy(gameObject);
         }
     }
 
-    /*void DrawHearts()
-    {
-        int totalHearts =maxHealth;
-        int  currentHearts = currentHealth;
-        
-        for(int i=0; i<totalHearts; i++)
-            
-        
-        
-        
+    
+   void DrawHearts()
+   {
+        for (int i = 0; i < _hearts.Length; i++)
+        {
+            if (i < currentHealth)
+            {
+                _hearts[i].style.backgroundImage = new StyleBackground(fullHeart.texture);
+            }
+            else
+            {
+              _hearts[i].style.backgroundImage = new StyleBackground(emptyHeart.texture);
+            }
+        }
     }
 
     void OnHealthChanged(int health)
     {
         
-    }*/
+    }
 }
