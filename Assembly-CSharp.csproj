@@ -51,7 +51,7 @@
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Scripts\UI\TitleScreenUI.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
-    <Compile Include="Assets\Input\PlayerInput.cs" />
+    <Compile Include="Assets\Scripts\Enemies\SkeletonAI.cs" />
     <Compile Include="Assets\Scripts\UI\PauseMenuUI.cs" />
     <None Include="Assets\UI\PauseMenu.uxml" />
     <None Include="Assets\UI\HealthBar.uxml" />

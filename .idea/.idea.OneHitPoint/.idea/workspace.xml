@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e973416-8581-4f32-a3d4-2ebda553231e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OneHitPoint/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OneHitPoint/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Input/PlayerInput.inputactions.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Input/PlayerInput.inputactions.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Enemies/Skeleton animations/Death Skeleton.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Enemies/Skeleton animations/Death Skeleton.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Enemies/Skeleton animations/Walk.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Enemies/Skeleton animations/Walk.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Enemies/Skeleton animations/skeleton.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Enemies/Skeleton animations/skeleton.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 1 (9).controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 1 (9).controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/animators/MainCharacter.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/animators/MainCharacter.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Characters/Enemies/skeleton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Characters/Enemies/skeleton.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Environment/Props/bat 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Environment/Props/bat 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Environment/Props/platform 4 left.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Environment/Props/platform 4 left.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +44,9 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyDamage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/SkeletonAI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/PauseMenuUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/TitleScreenUI.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -119,7 +131,7 @@
       <workItem from="1743526828116" duration="150000" />
       <workItem from="1743527161183" duration="1100000" />
       <workItem from="1743585649556" duration="24920000" />
-      <workItem from="1743863663358" duration="12260000" />
+      <workItem from="1743863663358" duration="22848000" />
     </task>
     <task id="LOCAL-00001" summary="Primer commit">
       <option name="closed" value="true" />
