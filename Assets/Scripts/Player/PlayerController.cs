@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
 
     private bool isGrounded;
     private Rigidbody2D rb;
-    private PlayerInput controls;
+    private GameController controls;
     private Vector2 move;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        controls = new PlayerInput();
+        controls = new GameController();
     }
 
     void OnEnable()
