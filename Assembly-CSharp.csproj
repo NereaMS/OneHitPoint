@@ -46,11 +46,16 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Input\GameController.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemyDamage.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\UI\TitleScreenUI.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
     <Compile Include="Assets\Input\PlayerInput.cs" />
+    <Compile Include="Assets\Scripts\UI\PauseMenuUI.cs" />
+    <None Include="Assets\UI\PauseMenu.uxml" />
     <None Include="Assets\UI\HealthBar.uxml" />
+    <None Include="Assets\UI\TitleScreen.uxml" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
