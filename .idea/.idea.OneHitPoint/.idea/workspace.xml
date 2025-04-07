@@ -6,16 +6,95 @@
   <component name="ChangeListManager">
     <list default="true" id="0e973416-8581-4f32-a3d4-2ebda553231e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OneHitPoint/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OneHitPoint/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Enemies/Skeleton animations/Death Skeleton.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Enemies/Skeleton animations/Death Skeleton.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Enemies/Skeleton animations/Walk.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Enemies/Skeleton animations/Walk.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Enemies/Skeleton animations/skeleton.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Enemies/Skeleton animations/skeleton.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 1 (9).controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 1 (9).controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Player/Character_Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Player/Character_Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Player/Character_Walk.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Player/Character_Walk.anim.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animations/animators/MainCharacter.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/animators/MainCharacter.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Characters/Enemies/skeleton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Characters/Enemies/skeleton.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Environment/Props/bat 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Environment/Props/bat 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Environment/Props/platform 4 left.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Environment/Props/platform 4 left.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Tiles/platform 3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Environment/Tiles/platform 3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Tiles/platform 5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Environment/Tiles/platform 5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_0.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_10.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_10.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_10.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_11.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_11.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_11.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_12.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_12.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_12.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_13.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_13.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_13.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_14.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_14.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_14.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_15.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_15.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_15.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_16.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_16.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_16.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_17.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_17.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_17.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_6.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_7.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_7.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_7.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_8.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_8.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_9.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_9.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_9.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_0.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_10.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_10.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_10.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_11.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_11.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_11.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_12.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_12.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_12.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_13.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_13.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_13.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_14.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_14.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_14.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_15.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_15.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_15.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_16.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_16.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_16.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_17.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_17.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_17.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_18.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_18.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_18.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_19.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_19.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_19.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_6.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_7.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_7.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_7.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_8.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_8.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_9.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_9.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_9.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Input/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Input/GameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Input/GameController.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Input/GameController.inputactions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,20 +138,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "enemy-ui-system",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;enemy-ui-system&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Unity.exe" />
@@ -180,8 +259,18 @@
   </component>
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="37097e63-6c20-4f1e-a125-a3c1c06a4c68" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
+        <entry key="37097e63-6c20-4f1e-a125-a3c1c06a4c68">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />

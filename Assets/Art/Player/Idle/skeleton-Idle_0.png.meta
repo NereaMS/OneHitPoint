@@ -103,9 +103,9 @@ TextureImporter:
       name: skeleton-Idle_0_0
       rect:
         serializedVersion: 2
-        x: 190
+        x: 152
         y: 0
-        width: 531
+        width: 532
         height: 362
       alignment: 0
       pivot: {x: 0, y: 0}

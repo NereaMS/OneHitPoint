@@ -33,6 +33,7 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         controls = new GameController();
+        controls.Player.Attack.performed += ctx => OnAttack();
     }
 
     void OnEnable()
@@ -105,6 +106,11 @@ public class PlayerController : MonoBehaviour
             animator.SetTrigger("Jump");
         }
        
+    }
+
+    void OnAttack()
+    {
+        animator.SetTrigger("Attack");
     }
 
    
