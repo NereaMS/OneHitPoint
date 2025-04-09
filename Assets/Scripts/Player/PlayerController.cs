@@ -2,29 +2,34 @@
 
 
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    
-    public float moveSpeed = 5.0f;
-    public float jumpForce = 10.0f;
+  
+  
+    public float walkSpeed = 2f;
+    public float runSpeed = 5f;
+    public float jumpForce = 20.0f;
     public float gravity = -30;
     public float verticalVelocity = 0f;
     public Transform groundCheck;
     public float groundDistance = 0.2f;
     public LayerMask groundMask;
    
+    public EnemyController enemy;
+   
 
     private bool isGrounded;
     private Rigidbody2D rb;
-    private GameController controls;
+    private InputSystem_Actions controls;
     private Vector2 move;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
-    private bool isJumpPressed = false;
+  
 
     // 
     private void Awake()
@@ -32,8 +37,8 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        controls = new GameController();
-        controls.Player.Attack.performed += ctx => OnAttack();
+        controls = new InputSystem_Actions();
+      
     }
 
     void OnEnable()
@@ -93,25 +98,29 @@ public class PlayerController : MonoBehaviour
             verticalVelocity = 0f;
         }
         
-        rb.linearVelocity = new Vector2(move.x * moveSpeed, rb.linearVelocity.y);
+        float magnitude = move.magnitude;
+        animator.SetFloat("Speed", magnitude);
+        float currentSpeed =(magnitude > 0.5f ) ? runSpeed : walkSpeed;
+        
+        rb.linearVelocity = new Vector2(move.x * currentSpeed, verticalVelocity);
         
         
     }
 
     void OnJump(InputAction.CallbackContext context)
     {
+        Debug.Log("Estoy santando!!");
         if (isGrounded)
         {
+            
             verticalVelocity = jumpForce;
+           
             animator.SetTrigger("Jump");
         }
        
     }
 
-    void OnAttack()
-    {
-        animator.SetTrigger("Attack");
-    }
+  
 
    
     void OnDrawGizmos()
@@ -121,4 +130,6 @@ public class PlayerController : MonoBehaviour
             
         
     }
+
+  
 }
