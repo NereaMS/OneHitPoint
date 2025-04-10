@@ -1,3 +1,4 @@
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class ChaseState : IEnemyState
@@ -13,7 +14,7 @@ public class ChaseState : IEnemyState
     
     public void OnEnter()
     {
-        
+        Debug.Log("Entered ChaseState");
         _enemy.StartAnimation("WalkFast", true);
     }
     public void UpdateState()
@@ -22,11 +23,13 @@ public class ChaseState : IEnemyState
         
         if (_enemy.IsPlayerInAtackRange())
         {
-            Debug.Log("Atacando, jugador en rago de ataque!!!");
+          
             _enemy.StopMovement();
             _stateMachine.SetState(new AttackState(_enemy, _stateMachine));
             return;
         }
+        //bool respuesta= _enemy.IsPlayerInAtackRange();
+        //Debug.Log(respuesta);
 
         if (!_enemy.IsPlayerInRange())
         {

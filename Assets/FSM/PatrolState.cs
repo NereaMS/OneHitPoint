@@ -19,12 +19,13 @@ public class PatrolState : IEnemyState
     {
        
         //animacion de caminar
-        
+        Debug.Log("Entered PatrolState");
         _enemy.StartAnimation("WalkFast", false);
     }
 
     public void UpdateState()
     {
+        Debug.Log("Actualizando estado de Patrol");
        
         //Si el personaje esta a rango pasamos al estado de perseguir (CHase)
 
@@ -33,8 +34,9 @@ public class PatrolState : IEnemyState
             _stateMachine.SetState(new ChaseState(_enemy, _stateMachine));
             return;
         }
-        _enemy.MoveTowardsPlayer(_enemy.slowSpeed);
-        _enemy.StartAnimation("WalkFast", false);
+        
+        _enemy.MoveRandomly(_enemy.slowSpeed);
+      
         
             
         

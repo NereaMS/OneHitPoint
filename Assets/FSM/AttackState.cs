@@ -13,7 +13,7 @@ public class AttackState : IEnemyState
 
     public void OnEnter()
     {
-        Debug.Log(" Estoy sacandote jugo");
+       Debug.Log("AtatckState");
         _enemy.StopMovement();
         
         _enemy.StartAnimation("Attack", true);
@@ -23,7 +23,7 @@ public class AttackState : IEnemyState
     {
         if (!_enemy.IsPlayerInAtackRange())
         {
-            _stateMachine.SetState(new PatrolState(_enemy, _stateMachine));
+            _stateMachine.SetState(new ChaseState(_enemy, _stateMachine));
             return;
         }
         

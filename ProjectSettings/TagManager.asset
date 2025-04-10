@@ -14,9 +14,9 @@ TagManager:
   - UI
   - Enemy
   - Player
-  - 
-  - 
-  - 
+  - Decorations
+  - Background
+  - Middleground
   - 
   - 
   - 
@@ -42,8 +42,20 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 4134200915
+    locked: 0
+  - name: Middleground
+    uniqueID: 1160663411
+    locked: 0
   - name: Foreground
     uniqueID: 3951030539
+    locked: 0
+  - name: Ground
+    uniqueID: 2582850921
+    locked: 0
+  - name: Decorations
+    uniqueID: 19128339
     locked: 0
   - name: Player
     uniqueID: 3632878199

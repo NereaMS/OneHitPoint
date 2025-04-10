@@ -29,6 +29,7 @@ public class PlayerController : MonoBehaviour
     private Vector2 move;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
+    private PlayerMeleeAttack _meleeAttack;
   
 
     // 
@@ -38,7 +39,8 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         controls = new InputSystem_Actions();
-      
+        _meleeAttack = GetComponent<PlayerMeleeAttack>();
+
     }
 
     void OnEnable()
@@ -68,10 +70,22 @@ public class PlayerController : MonoBehaviour
        
         
         //Flip image
-        if(move.x < 0)
+        if (move.x < 0)
+        {
             spriteRenderer.flipX = true;
-        if(move.x > 0)
+            _meleeAttack.FlipAttackPoint(true);
+        }
+        else if (move.x > 0)
+        {
             spriteRenderer.flipX = false;
+            _meleeAttack.FlipAttackPoint(true);
+            
+        }
+          
+        
+
+       
+           
         Debug.DrawRay(transform.position, Vector3.down *1f, Color.green);
        
 
@@ -109,7 +123,7 @@ public class PlayerController : MonoBehaviour
 
     void OnJump(InputAction.CallbackContext context)
     {
-        Debug.Log("Estoy santando!!");
+        //Debug.Log("Estoy santando!!");
         if (isGrounded)
         {
             
