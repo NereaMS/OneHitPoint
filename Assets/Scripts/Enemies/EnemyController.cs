@@ -9,7 +9,7 @@ public class EnemyController : MonoBehaviour
     public int health=2;
 
    
-
+    public float patrolDistance = 5f;
     public float attackRange = 5f;
     public float visionRange = 10f;
     public Transform player;
@@ -106,8 +106,17 @@ public class EnemyController : MonoBehaviour
 
     public void MoveRandomly(float speed)
     {
-        Vector2 randomDirection = _rb.position + Vector2.left * _distance;
-        _rb.linearVelocity= randomDirection * speed;
+        Vector2 direction = patrolDistance > 0 ? Vector2.right : Vector2.left;
+                           
+        _rb.linearVelocity= direction * speed;
+        spriteRenderer.flipX = direction.x > 0;
+        patrolDistance-= speed * Time.deltaTime;
+
+        if (Mathf.Abs(patrolDistance) <= 0.1f)
+        {
+            patrolDistance = - patrolDistance;
+        }
+      
     }
 
    
