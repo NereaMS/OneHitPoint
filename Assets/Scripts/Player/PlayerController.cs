@@ -137,6 +137,21 @@ public class PlayerController : MonoBehaviour
             
         
     }
+    
+    //Prueba para recoger pociones
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+       
+        if (collision.CompareTag("Potion"))
+        {
+            Animator anim = collision.GetComponent<Animator>();
+           
+            if(anim != null)
+                anim.SetTrigger("PickedUp");
+           
+        }
+        Destroy(collision.gameObject, 1f);
+    }
 
   
 }

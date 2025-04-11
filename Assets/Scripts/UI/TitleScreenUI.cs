@@ -14,7 +14,7 @@ public class TitleScreenUI : MonoBehaviour
       startButton.clicked += () =>
       {
          Time.timeScale = 1f;
-         SceneManager.LoadScene("SampleScene");
+         SceneManager.LoadScene("LevelTest");
       };
 
       quitButton.clicked += () =>

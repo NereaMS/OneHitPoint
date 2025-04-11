@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Enemy
+  - Potion
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - Decorations
   - Background
   - Middleground
-  - 
+  - Potion
   - 
   - 
   - 
@@ -51,11 +52,11 @@ TagManager:
   - name: Foreground
     uniqueID: 3951030539
     locked: 0
-  - name: Ground
-    uniqueID: 2582850921
-    locked: 0
   - name: Decorations
     uniqueID: 19128339
+    locked: 0
+  - name: Ground
+    uniqueID: 2582850921
     locked: 0
   - name: Player
     uniqueID: 3632878199
