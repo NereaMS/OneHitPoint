@@ -18,9 +18,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e973416-8581-4f32-a3d4-2ebda553231e" name="Changes" comment="Eliminacion de archivos .meta obsoletos de animaciones y props del entorno.">
+    <list default="true" id="0e973416-8581-4f32-a3d4-2ebda553231e" name="Changes" comment="Agregar assets de Ground">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OneHitPoint/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OneHitPoint/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelTest.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -336,7 +335,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744396521793</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Agregar nuevos assets y controladores de animaciones para enemigos y UI">
+      <option name="closed" value="true" />
+      <created>1744398561537</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1744398561537</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Agregar assets de Ground">
+      <option name="closed" value="true" />
+      <created>1744400113901</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1744400113901</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,6 +391,8 @@
     <MESSAGE value="Anadida lógica de patrullaje con `patrolDistance` al movimiento de enemigos" />
     <MESSAGE value="Commit preliminar para merge" />
     <MESSAGE value="Eliminacion de archivos .meta obsoletos de animaciones y props del entorno." />
-    <option name="LAST_COMMIT_MESSAGE" value="Eliminacion de archivos .meta obsoletos de animaciones y props del entorno." />
+    <MESSAGE value="Agregar nuevos assets y controladores de animaciones para enemigos y UI" />
+    <MESSAGE value="Agregar assets de Ground" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregar assets de Ground" />
   </component>
 </project>
