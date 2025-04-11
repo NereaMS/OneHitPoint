@@ -1,13 +1,1132 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AIAssistantCustomInstructionsStorage">
+    <option name="instructions">
+      <map>
+        <entry key="AIAssistant.VCS.GenerateCommitMessage">
+          <value>
+            <AIAssistantStoredInstruction>
+              <option name="actionId" value="AIAssistant.VCS.GenerateCommitMessage" />
+              <option name="content" value="- Answer in spanish&#10;- keep the message short" />
+            </AIAssistantStoredInstruction>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e973416-8581-4f32-a3d4-2ebda553231e" name="Changes" comment="Cambios en assets, ataque de mainCharacter">
+    <list default="true" id="0e973416-8581-4f32-a3d4-2ebda553231e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/ThaleahFat.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/ThaleahFat.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/PuertaSinCollider.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/PuertaSinCollider.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/TorreSinCollider.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/TorreSinCollider.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/prueba.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/prueba.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_0.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_0.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_10.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_10.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_11.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_11.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_12.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_12.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_13.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_13.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_14.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_14.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_15.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_15.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_16.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_16.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_17.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_17.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_18.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_18.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_19.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_19.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_20.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_20.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_21.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_21.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_22.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_22.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_23.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_23.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_24.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_24.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_25.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_25.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_26.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_26.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_27.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_27.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_28.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_28.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_29.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_29.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_3.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_3.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_30.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_30.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_31.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_31.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_32.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_32.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_33.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_33.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_34.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_34.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_35.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_35.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_36.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_36.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_37.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_37.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_38.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_38.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_39.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_39.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_4.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_4.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_40.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_40.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_41.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_41.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_42.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_42.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_43.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_43.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_44.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_44.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_45.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_45.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_46.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_46.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_47.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_47.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_48.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_48.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_49.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_49.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_5.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_5.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_50.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_50.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_51.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_51.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_52.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_52.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_53.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_53.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_54.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_54.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_55.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_55.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_56.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_56.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_57.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_57.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_58.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_58.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_59.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_59.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_6.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_6.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_60.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_60.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_61.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_61.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_62.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_62.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_63.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_63.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_64.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_64.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_65.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_65.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_66.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_66.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_67.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_67.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_68.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_68.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_69.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_69.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_7.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_7.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_70.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_70.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_71.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_71.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_72.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_72.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_73.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_73.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_74.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_74.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_75.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_75.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_76.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_76.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_77.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_77.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_78.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_78.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_79.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_79.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_8.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_8.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_80.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_80.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_81.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_81.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_82.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_82.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_83.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_83.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_84.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_84.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_85.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_85.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_86.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_86.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_87.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_87.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_88.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_88.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_89.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_89.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_9.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_9.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_90.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_90.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_91.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_91.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_92.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset-sliced_92.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_0 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_0 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_0.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_0.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_1 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_1 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_10 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_10 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_10.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_10.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_100 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_100 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_100.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_100.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_101 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_101 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_101.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_101.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_102 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_102 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_102.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_102.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_103 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_103 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_103.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_103.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_104 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_104 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_104.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_104.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_105.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_105.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_106.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_106.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_107.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_107.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_108.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_108.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_109.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_109.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_11 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_11 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_11.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_11.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_110.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_110.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_111.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_111.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_112.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_112.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_113.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_113.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_114.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_114.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_115.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_115.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_116.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_116.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_117.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_117.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_118.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_118.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_119.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_119.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_12 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_12 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_12.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_12.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_120.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_120.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_121.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_121.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_122.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_122.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_123.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_123.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_124.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_124.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_125.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_125.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_126.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_126.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_127.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_127.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_128.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_128.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_129.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_129.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_13 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_13 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_13.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_13.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_130.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_130.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_131.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_131.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_132.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_132.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_133.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_133.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_134.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_134.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_135.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_135.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_136.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_136.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_137.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_137.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_138.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_138.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_139.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_139.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_14 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_14 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_14.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_14.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_140.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_140.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_141.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_141.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_15 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_15 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_15.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_15.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_16 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_16 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_16.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_16.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_17 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_17 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_17.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_17.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_18 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_18 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_18.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_18.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_19 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_19 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_19.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_19.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_2 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_2 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_20 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_20 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_20.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_20.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_21 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_21 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_21.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_21.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_22 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_22 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_22.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_22.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_23 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_23 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_23.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_23.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_24 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_24 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_24.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_24.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_25 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_25 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_25.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_25.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_26 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_26 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_26.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_26.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_27 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_27 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_27.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_27.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_28 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_28 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_28.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_28.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_29 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_29 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_29.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_29.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_3 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_3 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_3.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_3.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_30 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_30 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_30.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_30.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_31 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_31 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_31.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_31.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_32 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_32 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_32.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_32.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_33 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_33 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_33.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_33.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_34 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_34 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_34.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_34.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_35 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_35 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_35.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_35.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_36 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_36 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_36.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_36.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_37 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_37 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_37.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_37.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_38 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_38 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_38.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_38.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_39 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_39 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_39.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_39.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_4 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_4 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_4.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_4.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_40 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_40 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_40.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_40.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_41 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_41 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_41.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_41.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_42 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_42 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_42.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_42.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_43 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_43 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_43.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_43.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_44 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_44 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_44.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_44.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_45 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_45 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_45.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_45.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_46 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_46 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_46.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_46.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_47 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_47 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_47.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_47.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_48 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_48 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_48.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_48.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_49 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_49 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_49.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_49.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_5 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_5 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_5.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_5.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_50 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_50 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_50.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_50.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_51 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_51 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_51.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_51.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_52 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_52 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_52.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_52.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_53 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_53 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_53.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_53.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_54 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_54 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_54.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_54.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_55 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_55 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_55.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_55.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_56 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_56 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_56.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_56.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_57 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_57 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_57.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_57.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_58 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_58 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_58.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_58.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_59 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_59 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_59.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_59.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_6 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_6 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_6.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_6.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_60 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_60 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_60.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_60.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_61 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_61 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_61.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_61.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_62 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_62 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_62.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_62.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_63 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_63 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_63.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_63.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_64 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_64 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_64.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_64.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_65 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_65 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_65.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_65.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_66 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_66 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_66.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_66.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_67 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_67 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_67.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_67.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_68 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_68 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_68.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_68.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_69 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_69 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_69.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_69.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_7 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_7 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_7.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_7.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_70 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_70 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_70.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_70.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_71 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_71 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_71.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_71.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_72 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_72 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_72.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_72.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_73 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_73 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_73.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_73.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_74 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_74 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_74.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_74.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_75 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_75 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_75.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_75.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_76 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_76 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_76.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_76.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_77 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_77 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_77.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_77.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_78 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_78 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_78.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_78.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_79 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_79 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_79.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_79.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_8 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_8 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_8.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_8.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_80 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_80 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_80.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_80.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_81 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_81 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_81.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_81.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_82 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_82 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_82.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_82.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_83 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_83 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_83.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_83.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_84 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_84 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_84.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_84.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_85 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_85 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_85.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_85.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_86 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_86 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_86.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_86.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_87 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_87 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_87.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_87.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_88 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_88 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_88.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_88.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_89 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_89 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_89.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_89.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_9 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_9 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_9.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_9.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_90 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_90 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_90.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_90.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_91 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_91 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_91.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_91.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_92 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_92 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_92.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_92.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_93 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_93 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_93.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_93.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_94 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_94 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_94.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_94.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_95 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_95 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_95.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_95.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_96 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_96 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_96.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_96.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_97 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_97 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_97.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_97.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_98 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_98 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_98.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_98.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_99 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_99 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_99.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Cemetery Artwork/Environment/TilesPalette/tileset_99.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Enemies/bat-flying/Bat-Animation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Enemies/bat-flying/Bat-Animation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Enemies/bat-flying/bat-flying-1.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Enemies/bat-flying/bat-flying-1.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Enemies/bat-flying/bat-flying-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Enemies/bat-flying/bat-flying-1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Enemies/bat-flying/bat-flying-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Enemies/bat-flying/bat-flying-2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Enemies/bat-flying/bat-flying-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Enemies/bat-flying/bat-flying-3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Enemies/bat-flying/bat-flying-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Enemies/bat-flying/bat-flying-4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Enemies/skeleton.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Enemies/skeleton/Skeleton-Animation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Enemies/skeleton/Skeleton-Animation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Enemies/skeleton/skeleton-1.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Enemies/skeleton/skeleton-1.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Enemies/skeleton/skeleton-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Enemies/skeleton/skeleton-1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Enemies/skeleton/skeleton-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Enemies/skeleton/skeleton-2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Enemies/skeleton/skeleton-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Enemies/skeleton/skeleton-3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Enemies/skeleton/skeleton-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Enemies/skeleton/skeleton-4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Enemies/skeleton/skeleton-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Enemies/skeleton/skeleton-5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Enemies/skeleton/skeleton-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Enemies/skeleton/skeleton-6.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/Walk.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/Walk/heroine-sword-walk-Animation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/Walk/heroine-sword-walk-Animation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/Walk/walk1.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/Walk/walk1.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/Walk/walk1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/Walk/walk1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/Walk/walk10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/Walk/walk10.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/Walk/walk2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/Walk/walk2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/Walk/walk3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/Walk/walk3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/Walk/walk4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/Walk/walk4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/Walk/walk5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/Walk/walk5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/Walk/walk6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/Walk/walk6.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/Walk/walk7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/Walk/walk7.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/Walk/walk8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/Walk/walk8.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/Walk/walk9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/Walk/walk9.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/idle.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/idle/heroine-sword-idle-Animation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/idle/heroine-sword-idle-Animation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/idle/player-idle-1.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/idle/player-idle-1.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/idle/player-idle-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/idle/player-idle-1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/idle/player-idle-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/idle/player-idle-2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/idle/player-idle-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/idle/player-idle-3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/idle/player-idle-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/idle/player-idle-4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/jump.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/jump/heroine-sword-jump-Animation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/jump/heroine-sword-jump-Animation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/jump/player-jump-1.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/jump/player-jump-1.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/jump/player-jump-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/jump/player-jump-1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/jump/player-jump-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/jump/player-jump-2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/jump/player-jump-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/jump/player-jump-3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/jump/player-jump-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/jump/player-jump-4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/player-attack.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/player-attack/heroine-sword-attack-Animation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/player-attack/heroine-sword-attack-Animation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/player-attack/player-attack-1.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/player-attack/player-attack-1.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/player-attack/player-attack-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/player-attack/player-attack-1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/player-attack/player-attack-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/player-attack/player-attack-2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/player-attack/player-attack-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/player-attack/player-attack-3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/player-attack/player-attack-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/player-attack/player-attack-4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/player-attack/player-attack-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/player-attack/player-attack-5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/run/heroine-sword-run-Animation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/run/heroine-sword-run-Animation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/run/player-run-1.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/run/player-run-1.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/run/player-run-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/run/player-run-1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/run/player-run-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/run/player-run-2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/run/player-run-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/run/player-run-3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/run/player-run-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/run/player-run-4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/run/player-run-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/run/player-run-5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/run/player-run-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/run/player-run-6.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/run/player-run-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/Characters/Players/Heroine Sword/run/player-run-7.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/ITEMS/potion-red.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/ITEMS/potion-red/potion-red-1.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/ITEMS/potion-red/potion-red-1.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/ITEMS/potion-red/potion-red-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/ITEMS/potion-red/potion-red-1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/ITEMS/potion-red/potion-red-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/ITEMS/potion-red/potion-red-2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/ITEMS/potion-red/potion-red-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/ITEMS/potion-red/potion-red-3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/ITEMS/potion-red/potion-red-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/ITEMS/potion-red/potion-red-4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/ITEMS/potion-red/potion-red-Animation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/ITEMS/potion-red/potion-red-Animation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death-2.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death-2/Enemy-death-2-Animation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death-2/Enemy-death-2-Animation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death-2/enemy-death-1 (2).controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death-2/enemy-death-1 (2).controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death-2/enemy-death-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death-2/enemy-death-1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death-2/enemy-death-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death-2/enemy-death-2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death-2/enemy-death-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death-2/enemy-death-3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death-2/enemy-death-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death-2/enemy-death-4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death-2/enemy-death-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death-2/enemy-death-5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death-2/enemy-death-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death-2/enemy-death-6.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death-2/enemy-death-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death-2/enemy-death-7.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death/enemy-death-1.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death/enemy-death-1.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death/enemy-death-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death/enemy-death-1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death/enemy-death-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death/enemy-death-2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death/enemy-death-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death/enemy-death-3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death/enemy-death-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death/enemy-death-4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death/enemy-death-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death/enemy-death-5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death/enemy-death-Animation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gothicvania Collection/Artwork/VFX/enemy-death/enemy-death-Animation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Characters/skeleton-1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Characters/skeleton-1.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OneHitPoint/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OneHitPoint/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/TitleScreen.uxml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/TitleScreen.uxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Enemies.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/Light 2D (3).controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/Light 2D (3).controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/Light 2D (8).controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/Light 2D (8).controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/Light 2D (9).controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/Light 2D (9).controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 1 (1).controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 1 (1).controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 1 (11).controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 1 (11).controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 1 (7).controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 1 (7).controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 1 (9).controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 1 (9).controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 1 1.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 1 1.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 1 11.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 1 11.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 1 4.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 1 4.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 1 6.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 1 6.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 1 7.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 1 7.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 1 9.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 1 9.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 2 (2).controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 2 (2).controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 2 2.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 2 2.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 4 (2).controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 4 (2).controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 4 2.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 4 2.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 4.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 4.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 4.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 4.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 5 (1).controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 5 (1).controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 5 (2).controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 5 (2).controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 5 1.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 5 1.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 5 2.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog 5 2.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog1 (3).controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog1 (3).controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog1 (4).controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog1 (4).controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog1 (6).controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog1 (6).controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog1 3.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/fog1 3.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/light animation.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/light animation.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/light animations.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/light animations.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/lighttest.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationClips/Environment/lighttest.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/FX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/FX/flame asset.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/FX/flame asset.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/FX/flamematerial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/FX/flamematerial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/FX/fog 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/FX/fog 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/FX/fog 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/FX/fog 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/FX/fog 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/FX/fog 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/FX/fog 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/FX/fog 4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/FX/fog 5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/FX/fog 5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/FX/fog1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/FX/fog1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/FX/fog2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/FX/fog2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/FX/fog3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/FX/fog3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/FX/lightbeam 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/FX/lightbeam 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/FX/lightbeam 7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/FX/lightbeam 7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/bars.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/bars.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/bat 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/bat 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/bat 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/bat 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/cage 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/cage 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/cage 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/cage 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/candle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/candle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/candles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/candles.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/chain 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/chain 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/chain and handcuff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/chain and handcuff.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/chains 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/chains 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/chains 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/chains 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/chains str 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/chains str 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/chains str.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/chains str.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/gargoyle v2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/gargoyle v2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/gargoyle1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/gargoyle1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/handcuffs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/handcuffs.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/lamp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/lamp.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/lamp2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/lamp2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/prefab eyes bat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/prefab eyes bat.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/rock 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/rock 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/rock 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/rock 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/rock 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/rock 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/rock 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/rock 4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/skull 1 min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/skull 1 min.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/skull 2 min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/skull 2 min.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/skull 3 min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/skull 3 min.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/skull 4 min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/skull 4 min.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/skull pile 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/skull pile 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/skull pile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/skull pile.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/spider 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/spider 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/spider 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/spider 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/spikes 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/spikes 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/stalactite 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/stalactite 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/stalactite 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/stalactite 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/stalactite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/stalactite.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/stalagmite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/stalagmite.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/stand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/stand.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/sword.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/sword.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/torch 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/torch 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/torch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/torch.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/web 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/web 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/web.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Environment/Props/web.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_0.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_11.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_12.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_13.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_14.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_15.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_16.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_17.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Idle/skeleton-Idle_9.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_0.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_11.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_12.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_13.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_14.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_15.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_16.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_17.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_18.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_19.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Player/Walk/skeleton-Walk_9.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelTest.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TitleScreen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TitleScreen.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/HealthBar.uxml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/HealthBar.uxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,54 +1229,27 @@
     <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/Animations/animators/MainCharacter.controller" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FSM/AttackState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/FSM/AttackState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FSM/ChaseState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/FSM/ChaseState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/FSM/DeathState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/FSM/EnemyStateMachine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FSM/IEnemyState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/FSM/PatrolState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/Scripts/Enemies/EnemyController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/Scripts/Enemies/EnemyController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyDamage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/SkeletonAI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/Scripts/Player/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/Scripts/Player/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerMeleeAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/PauseMenuUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/TitleScreenUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nesar/OneHitPoint/ProjectSettings/TagManager.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -168,20 +1260,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;enemy-ui-system&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Unity.exe" />
@@ -243,7 +1335,8 @@
       <workItem from="1743863663358" duration="22848000" />
       <workItem from="1744012807475" duration="9186000" />
       <workItem from="1744050233008" duration="19254000" />
-      <workItem from="1744131967076" duration="26417000" />
+      <workItem from="1744131967076" duration="43290000" />
+      <workItem from="1744321107362" duration="14865000" />
     </task>
     <task id="LOCAL-00001" summary="Primer commit">
       <option name="closed" value="true" />
@@ -293,7 +1386,55 @@
       <option name="project" value="LOCAL" />
       <updated>1744181588941</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="FSM basica, pendiente finalizar estado Attack">
+      <option name="closed" value="true" />
+      <created>1744216408547</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1744216408547</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Actualizacion de FSM y ataque del player">
+      <option name="closed" value="true" />
+      <created>1744322845488</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1744322845488</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Actualizacion de estados.DeathState">
+      <option name="closed" value="true" />
+      <created>1744323008661</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1744323008661</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Ajuste del estado de Death">
+      <option name="closed" value="true" />
+      <created>1744355561036</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1744355561036</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Anadida lógica de patrullaje con `patrolDistance` al movimiento de enemigos">
+      <option name="closed" value="true" />
+      <created>1744356560227</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1744356560227</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Commit preliminar para merge">
+      <option name="closed" value="true" />
+      <created>1744386813002</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1744386813002</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,18 +1449,8 @@
   </component>
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="37097e63-6c20-4f1e-a125-a3c1c06a4c68" value="TOOL_WINDOW" />
-      </map>
-    </option>
     <option name="TAB_STATES">
       <map>
-        <entry key="37097e63-6c20-4f1e-a125-a3c1c06a4c68">
-          <value>
-            <State />
-          </value>
-        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -336,6 +1467,12 @@
     <MESSAGE value="Sistema basico de salud, TakeDamage y dibujo de corazones." />
     <MESSAGE value="Cambios animaciones" />
     <MESSAGE value="Cambios en assets, ataque de mainCharacter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambios en assets, ataque de mainCharacter" />
+    <MESSAGE value="FSM basica, pendiente finalizar estado Attack" />
+    <MESSAGE value="Actualizacion de FSM y ataque del player" />
+    <MESSAGE value="Actualizacion de estados.DeathState" />
+    <MESSAGE value="Ajuste del estado de Death" />
+    <MESSAGE value="Anadida lógica de patrullaje con `patrolDistance` al movimiento de enemigos" />
+    <MESSAGE value="Commit preliminar para merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
