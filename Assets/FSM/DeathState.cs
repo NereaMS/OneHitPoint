@@ -17,7 +17,7 @@ public class DeathState : IEnemyState
         Debug.Log("Entered Death State");
         _enemy.StopMovement();
         _enemy.StartAnimation("Death", true);
-        Object.Destroy(_enemy.gameObject, 2f);
+        Object.Destroy(_enemy.gameObject, 1.5f);
     }
 
     public void UpdateState()

@@ -78,18 +78,11 @@ public class PlayerController : MonoBehaviour
         else if (move.x > 0)
         {
             spriteRenderer.flipX = false;
-            _meleeAttack.FlipAttackPoint(true);
+            _meleeAttack.FlipAttackPoint(false);
             
         }
-          
         
-
-       
-           
         Debug.DrawRay(transform.position, Vector3.down *1f, Color.green);
-       
-
-
     }
 
     void FixedUpdate()
