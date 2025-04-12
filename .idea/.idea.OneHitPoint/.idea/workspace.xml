@@ -18,8 +18,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e973416-8581-4f32-a3d4-2ebda553231e" name="Changes" comment="Agregar assets de Ground">
+    <list default="true" id="0e973416-8581-4f32-a3d4-2ebda553231e" name="Changes" comment="Agregar archivos meta para assets de Gothicvania.">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OneHitPoint/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OneHitPoint/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelTest.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRP.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRP.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,14 +127,15 @@
     <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/Animations/animators/MainCharacter.controller" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FSM/AttackState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/FSM/AttackState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FSM/AttackState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FSM/ChaseState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/FSM/ChaseState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/FSM/DeathState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/FSM/EnemyStateMachine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FSM/IEnemyState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/FSM/PatrolState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/Scenes/LevelTest.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/Scripts/Enemies/EnemyController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/Scripts/Enemies/EnemyController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyDamage.cs" root0="FORCE_HIGHLIGHTING" />
@@ -142,6 +147,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerMeleeAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/PauseMenuUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/TitleScreenUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/UniversalRenderPipelineGlobalSettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nesar/OneHitPoint/ProjectSettings/GraphicsSettings.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/nesar/OneHitPoint/ProjectSettings/TagManager.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -168,6 +175,14 @@
   }
 }]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Builds\OneHitPoint.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\nesar\OneHitPoint\Builds" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\nesar\OneHitPoint -debugCodeOptimization" />
@@ -351,7 +366,31 @@
       <option name="project" value="LOCAL" />
       <updated>1744400113901</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Eliminar archivos .meta de texturas no utilizados en el entorno">
+      <option name="closed" value="true" />
+      <created>1744400791590</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1744400791590</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Ultimos assets por anadir.">
+      <option name="closed" value="true" />
+      <created>1744401901632</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1744401901632</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Agregar archivos meta para assets de Gothicvania.">
+      <option name="closed" value="true" />
+      <created>1744443596658</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1744443596658</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,6 +432,10 @@
     <MESSAGE value="Eliminacion de archivos .meta obsoletos de animaciones y props del entorno." />
     <MESSAGE value="Agregar nuevos assets y controladores de animaciones para enemigos y UI" />
     <MESSAGE value="Agregar assets de Ground" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agregar assets de Ground" />
+    <MESSAGE value="&quot;Eliminar metadatos de texturas no utilizados.&quot;" />
+    <MESSAGE value="Eliminar archivos .meta de texturas no utilizados en el entorno" />
+    <MESSAGE value="Ultimos assets por anadir." />
+    <MESSAGE value="Agregar archivos meta para assets de Gothicvania." />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregar archivos meta para assets de Gothicvania." />
   </component>
 </project>
