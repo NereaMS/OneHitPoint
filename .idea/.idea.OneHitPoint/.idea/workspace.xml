@@ -18,12 +18,107 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e973416-8581-4f32-a3d4-2ebda553231e" name="Changes" comment="Agregar archivos meta para assets de Gothicvania.">
+    <list default="true" id="0e973416-8581-4f32-a3d4-2ebda553231e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/HealthBarUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/HealthBarUI.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OneHitPoint/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OneHitPoint/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Point Bars_tileset.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Point Bars_tileset.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Brain Bar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Brain Bar/Brain Stage 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Brain Bar/Brain Stage 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Brain Bar/Brain Stage 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Brain Bar/Brain Stage 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Brain Bar/Brain Stage 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Brain Bar/Brain Stage 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Brain Bar/Brain Stage 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Brain Bar/Brain Stage 4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Brain Bar/Brain Stage 5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Brain Bar/Brain Stage 5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Cookie Bar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Cookie Bar/Cookie Stage 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Cookie Bar/Cookie Stage 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Cookie Bar/Cookie Stage 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Cookie Bar/Cookie Stage 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Cookie Bar/Cookie Stage 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Cookie Bar/Cookie Stage 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Cookie Bar/Cookie Stage 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Cookie Bar/Cookie Stage 4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Cookie Bar/Cookie Stage 5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Cookie Bar/Cookie Stage 5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Diamond Bar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Diamond Bar/Diamond Stage 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Diamond Bar/Diamond Stage 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Diamond Bar/Diamond Stage 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Diamond Bar/Diamond Stage 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Diamond Bar/Diamond Stage 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Diamond Bar/Diamond Stage 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Diamond Bar/Diamond Stage 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Diamond Bar/Diamond Stage 4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Diamond Bar/Diamond Stage 5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Diamond Bar/Diamond Stage 5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Energy Bar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Energy Bar/Energy Stage 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Energy Bar/Energy Stage 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Energy Bar/Energy Stage 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Energy Bar/Energy Stage 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Energy Bar/Energy Stage 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Energy Bar/Energy Stage 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Energy Bar/Energy Stage 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Energy Bar/Energy Stage 4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Energy Bar/Energy Stage 5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Energy Bar/Energy Stage 5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Gas Bar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Gas Bar/Gas Stage 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Gas Bar/Gas Stage 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Gas Bar/Gas Stage 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Gas Bar/Gas Stage 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Gas Bar/Gas Stage 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Gas Bar/Gas Stage 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Gas Bar/Gas Stage 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Gas Bar/Gas Stage 4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Gas Bar/Gas Stage 5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Gas Bar/Gas Stage 5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Heart Bar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Heart Bar/Heart Stage 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Heart Bar/Heart Stage 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Heart Bar/Heart Stage 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Heart Bar/Heart Stage 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Heart Bar/Heart Stage 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Heart Bar/Heart Stage 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Heart Bar/Heart Stage 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Heart Bar/Heart Stage 4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Heart Bar/Heart Stage 5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Heart Bar/Heart Stage 5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Star Bar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Star Bar/Star Stage 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Star Bar/Star Stage 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Star Bar/Star Stage 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Star Bar/Star Stage 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Star Bar/Star Stage 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Star Bar/Star Stage 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Star Bar/Star Stage 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Star Bar/Star Stage 4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Star Bar/Star Stage 5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Star Bar/Star Stage 5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Strawberry Bar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Strawberry Bar/Strawberry Stage 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Strawberry Bar/Strawberry Stage 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Strawberry Bar/Strawberry Stage 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Strawberry Bar/Strawberry Stage 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Strawberry Bar/Strawberry Stage 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Strawberry Bar/Strawberry Stage 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Strawberry Bar/Strawberry Stage 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Strawberry Bar/Strawberry Stage 4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Strawberry Bar/Strawberry Stage 5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Health and Points Bars/Health and Points Bars/Sprites/Strawberry Bar/Strawberry Stage 5.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelTest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRP.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRP.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/HealthBar.uxml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/HealthBar.uxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,105 +146,20 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/Animations/animators/MainCharacter.controller" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/FSM/AttackState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FSM/AttackState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FSM/ChaseState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/FSM/ChaseState.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/FSM/DeathState.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/FSM/EnemyStateMachine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FSM/IEnemyState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/FSM/PatrolState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/Scenes/LevelTest.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/Scripts/Enemies/EnemyController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/Scripts/Enemies/EnemyController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyDamage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/SkeletonAI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/Scripts/Player/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/Scripts/Player/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/Scripts/Player/PlayerHealth.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerMeleeAttack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/HealthBarUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/PauseMenuUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/TitleScreenUI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/UniversalRenderPipelineGlobalSettings.asset" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nesar/OneHitPoint/ProjectSettings/GraphicsSettings.asset" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nesar/OneHitPoint/ProjectSettings/TagManager.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nesar/OneHitPoint/Assets/UI/HealthBar.uxml" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -164,7 +174,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "sistema-salud",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -245,6 +255,7 @@
       <workItem from="1744050233008" duration="19254000" />
       <workItem from="1744131967076" duration="43290000" />
       <workItem from="1744321107362" duration="14865000" />
+      <workItem from="1746031875179" duration="6385000" />
     </task>
     <task id="LOCAL-00001" summary="Primer commit">
       <option name="closed" value="true" />
@@ -390,7 +401,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744443596658</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Actualizacion configuración de escena, renderizado y assets .meta para Gothicvania">
+      <option name="closed" value="true" />
+      <created>1744448333836</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1744448333836</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,6 +455,7 @@
     <MESSAGE value="Eliminar archivos .meta de texturas no utilizados en el entorno" />
     <MESSAGE value="Ultimos assets por anadir." />
     <MESSAGE value="Agregar archivos meta para assets de Gothicvania." />
-    <option name="LAST_COMMIT_MESSAGE" value="Agregar archivos meta para assets de Gothicvania." />
+    <MESSAGE value="Actualizacion configuración de escena, renderizado y assets .meta para Gothicvania" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion configuración de escena, renderizado y assets .meta para Gothicvania" />
   </component>
 </project>

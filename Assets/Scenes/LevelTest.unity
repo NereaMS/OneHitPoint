@@ -711,6 +711,7 @@ GameObject:
   m_Component:
   - component: {fileID: 289571516}
   - component: {fileID: 289571515}
+  - component: {fileID: 289571517}
   m_Layer: 5
   m_Name: HealthBar
   m_TagString: Untagged
@@ -752,6 +753,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &289571517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289571514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1133e290085de240b9fcbc5c8d5f27e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 5471449270730349303}
+  fullHeart: {fileID: 2800000, guid: 2221f2dfc0c1f814d91dfe0b4b90cb59, type: 3}
+  emptyHeart: {fileID: 2800000, guid: 4c35d31d0f732bc408137cc9dfaa82aa, type: 3}
 --- !u!1 &310011375
 GameObject:
   m_ObjectHideFlags: 0
@@ -10081,6 +10097,7 @@ GameObject:
   - component: {fileID: 5281791556862905005}
   - component: {fileID: 689260130392992072}
   - component: {fileID: 5471449270730349301}
+  - component: {fileID: 5471449270730349303}
   m_Layer: 7
   m_Name: MainCharacter
   m_TagString: Player
@@ -10233,6 +10250,20 @@ MonoBehaviour:
   enemy:
     serializedVersion: 2
     m_Bits: 64
+--- !u!114 &5471449270730349303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838838832984971943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f66531b5464e47f418332b9b4d9d6d16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 3
+  maxHealth: 3
 --- !u!1001 &6846433379235277918
 PrefabInstance:
   m_ObjectHideFlags: 0
