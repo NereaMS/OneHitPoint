@@ -1,4 +1,4 @@
-using TMPro;
+
 using UnityEngine;
 
 public class EnemyController : MonoBehaviour
@@ -21,21 +21,21 @@ public class EnemyController : MonoBehaviour
     private float _distance;
     private SpriteRenderer spriteRenderer;
     public bool IsDead => _isDead;
-
+    private IAttackHandler _attackHandler;
 
     void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
         _animator= GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        _attackHandler = GetComponent<IAttackHandler>();
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    protected virtual void Start()
     {
         StateMachine = new EnemyStateMachine();
         StateMachine.Initialize(this);
         StateMachine.SetState(new PatrolState(this, StateMachine));
-
     }
 
     // Update is called once per frame
@@ -45,18 +45,13 @@ public class EnemyController : MonoBehaviour
         //{
            StateMachine.UpdateState();
         //}
-        
     }
 
 
     public void MoveTowardsPlayer(float speed)
     {
-        // Distancia al jugador
-        Debug.Log($"Llamando a MoveTowardsPlayer con velocidad: {speed}");
-
         Vector2 direction = (player.position - transform.position).normalized;
         _rb.linearVelocity = new Vector2(direction.x * speed, 0);
-        
         
         if(direction.x >0)
             spriteRenderer.flipX = true;
@@ -90,9 +85,8 @@ public class EnemyController : MonoBehaviour
     {
         _distance = Vector2.Distance(transform.position, player.position);
         _distance = Mathf.Round(_distance * 100f) / 100f;
-        Debug.Log(_distance);
+       // Debug.Log(_distance);
         return _distance <= visionRange;
-        
     }
 
     public bool IsPlayerInAtackRange()
@@ -101,7 +95,6 @@ public class EnemyController : MonoBehaviour
         _distance = Mathf.Abs(_distance * 100f) /100f;
        
         return _distance <= attackRange +0.1f;
-
     }
 
     public void MoveRandomly(float speed)
@@ -116,9 +109,13 @@ public class EnemyController : MonoBehaviour
         {
             patrolDistance = - patrolDistance;
         }
-      
     }
 
-   
+    public void PerformAttack()
+    {
+        if(_attackHandler != null)
+            _attackHandler.PerformAttack();
+    }
+    
 }
 

@@ -13,8 +13,9 @@ public class AttackState : IEnemyState
 
     public void OnEnter()
     {
-       Debug.Log("AtatckState");
+       
         _enemy.StopMovement();
+        _enemy.PerformAttack();
         
         _enemy.StartAnimation("Attack", true);
     }

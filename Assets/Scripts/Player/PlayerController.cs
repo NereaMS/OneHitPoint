@@ -21,8 +21,7 @@ public class PlayerController : MonoBehaviour
     public LayerMask groundMask;
    
     public EnemyController enemy;
-   
-
+    
     private bool isGrounded;
     private Rigidbody2D rb;
     private InputSystem_Actions controls;
@@ -31,8 +30,7 @@ public class PlayerController : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private PlayerMeleeAttack _meleeAttack;
   
-
-    // 
+    
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -40,34 +38,25 @@ public class PlayerController : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         controls = new InputSystem_Actions();
         _meleeAttack = GetComponent<PlayerMeleeAttack>();
-
     }
 
     void OnEnable()
     {
         controls.Enable();
         controls.Player.Jump.performed += OnJump;
-
     }
 
     void OnDisable()
     {
-       
         controls.Player.Jump.performed -= OnJump;
         controls.Disable();
     }
-
-    void Start()
-    {
-        
-    }
-
+    
     // Update is called once per frame
     void Update()
     {
         move = controls.Player.Move.ReadValue<Vector2>();
         animator.SetFloat("Speed", Mathf.Abs(move.x));
-       
         
         //Flip image
         if (move.x < 0)
@@ -79,7 +68,6 @@ public class PlayerController : MonoBehaviour
         {
             spriteRenderer.flipX = false;
             _meleeAttack.FlipAttackPoint(false);
-            
         }
         
         Debug.DrawRay(transform.position, Vector3.down *1f, Color.green);
@@ -110,8 +98,6 @@ public class PlayerController : MonoBehaviour
         float currentSpeed =(magnitude > 0.5f ) ? runSpeed : walkSpeed;
         
         rb.linearVelocity = new Vector2(move.x * currentSpeed, verticalVelocity);
-        
-        
     }
 
     void OnJump(InputAction.CallbackContext context)
@@ -119,17 +105,11 @@ public class PlayerController : MonoBehaviour
         //Debug.Log("Estoy santando!!");
         if (isGrounded)
         {
-            
             verticalVelocity = jumpForce;
-           
             animator.SetTrigger("Jump");
         }
-       
     }
-
-  
-
-   
+    
     void OnDrawGizmos()
     {
             Gizmos.color = Color.red;
@@ -138,20 +118,4 @@ public class PlayerController : MonoBehaviour
         
     }
     
-    //Prueba para recoger pociones
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-       
-        if (collision.CompareTag("Potion"))
-        {
-            Animator anim = collision.GetComponent<Animator>();
-           
-            if(anim != null)
-                anim.SetTrigger("PickedUp");
-           
-        }
-        Destroy(collision.gameObject, 1f);
-    }
-
-  
 }

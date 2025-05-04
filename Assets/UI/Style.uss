@@ -1,0 +1,14 @@
+/* main_title_style.uss */
+
+.main-title {
+    font-size: 48px;
+    color: #FFCC33;
+   
+    -unity-text-align: middle-center;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    text-shadow: 2px 2px 0px black;
+    white-space: nowrap;
+    -unity-text-outline: 4px;
+    -unity-text-outline-color: black;
+}

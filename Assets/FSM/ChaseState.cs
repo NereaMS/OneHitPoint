@@ -14,16 +14,13 @@ public class ChaseState : IEnemyState
     
     public void OnEnter()
     {
-        Debug.Log("Entered ChaseState");
+       
         _enemy.StartAnimation("WalkFast", true);
     }
     public void UpdateState()
     {
-       
-        
         if (_enemy.IsPlayerInAtackRange())
         {
-          
             _enemy.StopMovement();
             _stateMachine.SetState(new AttackState(_enemy, _stateMachine));
             return;
@@ -33,7 +30,6 @@ public class ChaseState : IEnemyState
 
         if (!_enemy.IsPlayerInRange())
         {
-            Debug.Log("No hay jugador cerca, cambiando de estado");
             _stateMachine.SetState(new PatrolState(_enemy, _stateMachine));
             return;
         }

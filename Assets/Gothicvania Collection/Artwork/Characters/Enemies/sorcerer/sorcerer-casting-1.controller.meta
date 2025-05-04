@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 364faee5975d99246a6029c5f4aca7a0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 237751
+  packageName: Gothicvania Collection
+  packageVersion: 1.0
+  assetPath: Assets/Gothicvania Collection/Artwork/Characters/Enemies/sorcerer/sorcerer-casting-1.controller
+  uploadId: 545551
